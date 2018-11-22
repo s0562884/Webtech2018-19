@@ -1,0 +1,24 @@
+body {
+ background-color: #E6E0F8;
+ font-size:1rem;
+}
+h1,p {padding: 10px;}
+#oben{background-color: #D8CEF6;}
+#links{background-color:#BCA9F5}
+#mitte{background-color:#9F81F7 }
+#rechts{background-color: #5858FA}
+#unten{background-color: #2E2EFE}
+.flex-container{display: flex;flex-direction: column;}
+
+@media screen and (min-width: 720px) {
+ body {
+ background-color: #F6CEE3;
+ font-size:1.2rem;
+ }
+#oben {background-color: #F781BE;}
+#links{background-color: #FA58AC;flex:1;}
+#mitte{background-color: #FE2E9A;flex:4;}
+#rechts{background-color: #FF0080;flex:2;}
+#unten{background-color:#DF0174}
+.flex-container{display:flex;flex-direction: row;}
+}
